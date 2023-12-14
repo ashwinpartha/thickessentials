@@ -1,25 +1,29 @@
 import React from 'react'
 import BuyNowButton from '../components/BuyNowButton'
+import IncrementButton from '../components/IncrementButton';
 const RightSection = () => {
   return (
     <div className='p-6'>
         <div>
-        <h1 className='text-2xl'>Thick Essentials Long Hair Oil Name</h1>
+        <h1 className='text-2xl font-[700]'>Thick Essentials Long Hair Oil Name</h1>
         <p className='text-sm'>Best affects on hair oil and other parts</p>
-        <h2 className='text-2xl'>$49</h2>
-        <hr className='mt-2'></hr>
+        <h2 className='text-2xl mt-2'>$49</h2>
+        <hr className='mt-4'></hr>
         </div>
         <div className='pt-5'>
-            <p className='text-xs '>
+            <p className='text-l '>
             A lightweight under-eye cream swiftly combats dark circles, puffiness, and fine lines with a quick-absorbing, non-tacky formula. Vitamin K diminishes dark circles, Caffeine reduces puffiness, and Retinal enhances skin texture.
             </p>
-            <div className='mt-5 mb-5'>
-            <BuyNowButton />
-            <BuyNowButton />
+            <div className='mt-5 mb-5 flex'>
+            <IncrementButton/>
+            <div className='pl-8'>
+            <BuyNowButton/>
+            </div>
+            
             </div>
             
         </div>
-        <div className='pt-4'>
+        <div className='py-6'>
             <div className='pt-3'>
             <p className='text-l font-normal'>What makes us unique?</p>
             <div className='pl-5'>
@@ -34,8 +38,10 @@ const RightSection = () => {
                </ul>
             </div>
             </div>
-            
         </div>
+        <hr className='mt-4'></hr>
+        <h1 className='text-l font-bold mt-5'>About us</h1>
+        <p className='mt-2'>A lightweight under-eye cream swiftly combats dark circles, puffiness, and fine lines with a quick-absorbing, non-tacky formula. Vitamin K diminishes dark circles, Caffeine reduces puffiness, and Retinal enhances skin texture.</p>
         
 
     </div>
