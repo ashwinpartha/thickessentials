@@ -10,7 +10,7 @@ function App() {
   return (
     <CheckoutBar active={true}>
       <div>
-      <div className='bg-[] w-full h-full  pt-8'>  
+      <div className='bg-[] w-full h-full'>  
       <Header/>
       <MainSection></MainSection>   
       <HistorySection/>
